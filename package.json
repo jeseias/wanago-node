@@ -1,0 +1,31 @@
+{
+  "name": "master-node",
+  "version": "1.0.0",
+  "description": "learning node with wanago",
+  "main": "index.js",
+  "author": "jeseias domingos",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --respawn --ignore-watch node_modules --transpile-only src/server.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "dotenv": "^10.0.0",
+    "envalid": "^7.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
